@@ -42,11 +42,10 @@ Launch *Quick Open*:
 Paste the following command and press `Enter`:
 
 ```shell
-ext install equinusocio.vsc-material-theme
+ext install t3dotgg.vsc-material-theme-but-i-wont-sue-you
 ```
 
-And pick the one by **Mattia Astorino (Equinusocio)** as author.
-
+And pick the one by **Theo (t3dotgg)** as author.
 
 ## Activate theme
 
@@ -100,3 +99,7 @@ This project exists thanks to all the people who contribute. [[Contribute]](CONT
 <a href="graphs/contributors"><img src="https://opencollective.com/material-theme/contributors.svg?width=890" /></a>
 
 <p align="center"><a href="http://www.apache.org/licenses/LICENSE-2.0"><img src="https://img.shields.io/badge/License-Apache_2.0-5E81AC.svg?style=flat-square"/></a></p>
+
+## Attribution
+
+The code in this project was [previously hosted at this url](https://github.com/material-theme/vsc-material-theme), but the original author has wiped all history of it, making it incredibly hard to credit him and the other original contributors. Full credit has been preserved in the git history here to our best ability.
