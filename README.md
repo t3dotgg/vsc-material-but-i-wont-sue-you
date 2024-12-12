@@ -8,8 +8,9 @@ What he has done is fraudulent and shameful. I have created this fork to maintai
 I permit you to do whatever you want with this code as long as it follows the original license. I won't sue you for it. I promise.
 
 Sources:
-- [Attack post](https://dev.to/equinusocio/you-should-avoid-zed-editor-59n1) ([archive](https://archive.ph/PlljZ))
+- [Attack on Zed post](https://dev.to/equinusocio/you-should-avoid-zed-editor-59n1) ([archive](https://archive.ph/PlljZ))
 - [Github Discussions attack on Zed](https://github.com/zed-industries/extensions/issues/1645) ([archive](https://archive.ph/5hZyK))
+- [Attack on Package Control (Sublime Text) post](https://dev.to/equinusocio/why-you-should-avoid-sublime-text-2c73) ([archive](https://archive.ph/IlN6D))
 
 ## Table of contents
 
