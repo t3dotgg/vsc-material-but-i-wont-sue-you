@@ -1,7 +1,7 @@
 
 # Material Theme (But I won't sue you)
 
-So, uh, the guy who made the VS Code Material Theme is threatening everyone who uses it in their products. He [seems to have forgotten it was originally licensed under the Apache License, 2.0.](). He wiped the commit history to make it look like it was always his weird fake license.
+So, uh, the guy who made the VS Code Material Theme is threatening everyone who uses it in their products. He [seems to have forgotten it was originally licensed under the Apache License, 2.0.](https://github.com/Dramaga11/vsc-material-theme/blob/main/LICENSE). He wiped the commit history to make it look like it was always his weird fake license.
 
 What he has done is fraudulent and shameful. I have created this fork to maintain the original license and keep the project alive.
 
