@@ -117,5 +117,8 @@ Now you can re-build the theme and just run the debug, you will see your command
 
 ### Contributors
 
-Thank you to all the people who have already contributed to vsc-material-theme!
-<a href="graphs/contributors"><img src="https://opencollective.com/vsc-material-theme/contributors.svg?width=890" /></a>
+Thank you to all the people who have already contributed to vsc-material-but-i-wont-sue-you!
+
+## Attribution
+
+The code in this project was [previously hosted at this url](https://github.com/material-theme/vsc-material-theme), but the original author has wiped all history of it, making it incredibly hard to credit him and the other original contributors. Full credit has been preserved in the git history here to our best ability.
