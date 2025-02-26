@@ -1,9 +1,9 @@
 
 # Material Theme (But I won't sue you)
 
-> **Note:** The original Material Theme has been removed from the marketplace due to [distributing malware through their extensions](https://news.ycombinator.com/item?id=43178831#43181919). This fork has been thoroughly audited and is completely safe to use. I have personally audited every line, and removed a TON of unnecessary stuff to be sure. The VS Code team is auditing it as well just to be extra safe.
+> **Note:** The original Material Theme has been removed from the marketplace due to [distributing malware through their extensions](https://news.ycombinator.com/item?id=43181591). This fork has been thoroughly audited and is completely safe to use. I have personally audited every line, and removed a TON of unnecessary stuff to be sure. The VS Code team is auditing it as well just to be extra safe.
 
-So, uh, the guy who made the VS Code Material Theme is threatening everyone who uses it in their products. He [seems to have forgotten it was originally licensed under the Apache License, 2.0.](https://github.com/Dramaga11/vsc-material-theme/blob/main/LICENSE). He wiped the commit history to make it look like it was always his weird fake license.
+So, uh, the guy who made the VS Code Material Theme is threatening everyone who uses it in their products. He [seems to have forgotten it was originally licensed under the Apache License, 2.0.](https://github.com/Dramaga11/vsc-material-theme/blob/main/LICENSE). He wiped the commit history to make it look like it was always his weird fake license. Check out my [blog post for more info](https://t3.gg/blog/post/equinusocio).
 
 What he has done is fraudulent and shameful. I have created this fork to maintain the original license and keep the project alive.
 
@@ -87,20 +87,6 @@ Learn how to customize every part of this theme by using Visual Studio Code API.
     "explorer.decorations.badges": false
 }
 ```
-
-## Official Portings
-
-You can find all the official portings and resources [here](https://github.com/material-theme/vsc-material-theme/discussions/1279).
-
-## Want to use the legacy version?
-
-If you're looking for the deprecated Community Material Theme [you can find it here](https://github.com/material-theme/vsc-material-theme/discussions/1278). This version has been deprecated and removed from the official marketplace.
-
-## Contributors
-
-This project exists thanks to all the people who contribute. [[Contribute]](CONTRIBUTING.md).
-
-<p align="center"><a href="http://www.apache.org/licenses/LICENSE-2.0"><img src="https://img.shields.io/badge/License-Apache_2.0-5E81AC.svg?style=flat-square"/></a></p>
 
 ## Attribution
 
