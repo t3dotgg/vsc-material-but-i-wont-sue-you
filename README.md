@@ -1,6 +1,8 @@
 
 # Material Theme (But I won't sue you)
 
+> **Note:** The original Material Theme has been removed from the marketplace due to [distributing malware through their extensions](https://news.ycombinator.com/item?id=43178831#43181919). This fork has been thoroughly audited and is completely safe to use. I have personally audited every line, and removed a TON of unnecessary stuff to be sure. The VS Code team is auditing it as well just to be extra safe.
+
 So, uh, the guy who made the VS Code Material Theme is threatening everyone who uses it in their products. He [seems to have forgotten it was originally licensed under the Apache License, 2.0.](https://github.com/Dramaga11/vsc-material-theme/blob/main/LICENSE). He wiped the commit history to make it look like it was always his weird fake license.
 
 What he has done is fraudulent and shameful. I have created this fork to maintain the original license and keep the project alive.
