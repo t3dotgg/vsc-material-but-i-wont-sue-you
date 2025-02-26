@@ -2,7 +2,7 @@
   "name": "vsc-material-theme-but-i-wont-sue-you",
   "displayName": "Material Theme (But I Won't Sue You)",
   "description": "A Apache-2 licensed fork of Material Theme with no threats of legal action",
-  "version": "34.5.2",
+  "version": "35.0.0",
   "publisher": "t3dotgg",
   "license": "Apache-2.0",
   "author": "Theo",
@@ -29,10 +29,7 @@
     "build:ui": "node dist/scripts/ui/index.js",
     "build:generate-themes": "node dist/scripts/generator/index.js",
     "build:ts": "tsc -p ./tsconfig.json && ncp dist/src/ build && ncp material-theme.config.json build",
-    "postinstall": "node ./node_modules/vscode/bin/install && tsc -p tsconfig.json",
-    "release": "git pull && standard-version --release-as minor && git push --follow-tags",
-    "release:patch": "git pull && standard-version --release-as patch && git push --follow-tags",
-    "release:major": "git pull && standard-version -release-as major && git push --follow-tags"
+    "postinstall": "node ./node_modules/vscode/bin/install && tsc -p tsconfig.json"
   },
   "categories": [
     "Themes",
@@ -60,11 +57,6 @@
       {
         "command": "materialTheme.setAccent",
         "title": "Set accent color",
-        "category": "Material Theme"
-      },
-      {
-        "command": "materialTheme.showReleaseNotes",
-        "title": "Release Notes",
         "category": "Material Theme"
       }
     ],
@@ -169,21 +161,14 @@
       "url": "https://img.shields.io/github/issues/material-theme/vsc-material-theme",
       "href": "https://github.com/material-theme/vsc-material-theme/issues",
       "description": "Open issues"
-    },
-    {
-      "url": "https://img.shields.io/badge/%E2%9D%A4%EF%B8%8F-s?style=for-the-badge&logo=open-collective&label=Support%20us&labelColor=%233b79d6&color=%233b79d6",
-      "href": "https://opencollective.com/material-theme",
-      "description": "Support us!"
     }
   ],
   "devDependencies": {
     "@moxer/vscode-theme-generator": "1.21.0",
-    "@types/browserify": "12.0.36",
     "@types/fs-extra": "8.1.0",
     "@types/rimraf": "3.0.2",
     "@typescript-eslint/eslint-plugin": "3.3.0",
     "@typescript-eslint/parser": "3.3.0",
-    "browserify": "16.5.1",
     "eslint": "7.2.0",
     "eslint-config-xo-space": "0.25.0",
     "eslint-config-xo-typescript": "0.31.0",
@@ -195,12 +180,5 @@
     "vscode": "1.1.37"
   },
   "dependencies": {
-    "@sanity/client": "2.1.0",
-    "opencollective": "1.0.3"
-  },
-  "collective": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/material-theme",
-    "logo": "https://opencollective.com/opencollective/logo.txt"
   }
 }

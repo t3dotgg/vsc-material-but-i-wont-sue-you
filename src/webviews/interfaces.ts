@@ -1,22 +1,3 @@
-export interface IChangeType {
-  children: Array<{
-    text: string;
-  }>;
-}
-export interface IPost {
-  title: string;
-  version: string;
-  fixed: IChangeType[];
-  new: IChangeType[];
-  breaking: IChangeType[];
-}
-export interface IPostNormalized {
-  title: string;
-  version: string;
-  fixed: string[];
-  new: string[];
-  breaking: string[];
-}
 export interface ISettingsChangedMessage {
   type: 'settingsChanged';
   config: Record<string, unknown>;
