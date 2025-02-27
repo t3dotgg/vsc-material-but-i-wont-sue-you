@@ -1,4 +1,4 @@
-import {IColorSet} from '@moxer/vscode-theme-generator';
+import {IColorSet} from '../../src/theme-generator/interfaces';
 import {ThemeSetting} from './types';
 
 export const getColorSet = (theme: ThemeSetting): IColorSet => {
