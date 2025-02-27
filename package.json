@@ -29,6 +29,7 @@
     "build:copy-community": "node dist/scripts/generator/copy-community.js",
     "build:generate-themes": "node dist/scripts/generator/index.js",
     "build:ts": "tsc -p ./tsconfig.json && ncp dist/src/ build && ncp material-theme.config.json build",
+    "package": "vsce package",
     "postinstall": "node ./node_modules/vscode/bin/install && tsc -p tsconfig.json"
   },
   "categories": [
@@ -149,6 +150,56 @@
         "label": "Material Theme Lighter High Contrast",
         "path": "./build/themes/Material-Theme-Lighter-High-Contrast.json",
         "uiTheme": "vs"
+      },
+      {
+        "label": "Community Material Theme Darker High Contrast",
+        "path": "./build/themes/Community-Material-Theme-Darker-High-Contrast.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "Community Material Theme Darker",
+        "path": "./build/themes/Community-Material-Theme-Darker.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "Community Material Theme Default High Contrast",
+        "path": "./build/themes/Community-Material-Theme-Default-High-Contrast.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "Community Material Theme Default",
+        "path": "./build/themes/Community-Material-Theme-Default.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "Community Material Theme Lighter High Contrast",
+        "path": "./build/themes/Community-Material-Theme-Lighter-High-Contrast.json",
+        "uiTheme": "vs"
+      },
+      {
+        "label": "Community Material Theme Lighter",
+        "path": "./build/themes/Community-Material-Theme-Lighter.json",
+        "uiTheme": "vs"
+      },
+      {
+        "label": "Community Material Theme Ocean High Contrast",
+        "path": "./build/themes/Community-Material-Theme-Ocean-High-Contrast.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "Community Material Theme Ocean",
+        "path": "./build/themes/Community-Material-Theme-Ocean.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "Community Material Theme Palenight High Contrast",
+        "path": "./build/themes/Community-Material-Theme-Palenight-High-Contrast.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "Community Material Theme Palenight",
+        "path": "./build/themes/Community-Material-Theme-Palenight.json",
+        "uiTheme": "vs-dark"
       }
     ]
   },
@@ -168,6 +219,7 @@
     "@types/node": "22.13.5",
     "@typescript-eslint/eslint-plugin": "3.3.0",
     "@typescript-eslint/parser": "3.3.0",
+    "@vscode/vsce": "3.2.2",
     "eslint": "7.2.0",
     "eslint-config-xo-space": "0.25.0",
     "eslint-config-xo-typescript": "0.31.0",

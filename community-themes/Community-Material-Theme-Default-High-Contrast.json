@@ -1,6 +1,6 @@
 {
   "name": "Community-Material-Theme-Default-High-Contrast",
-  "type": "dark",
+  "semanticHighlighting": true,
   "tokenColors": [
     {
       "settings": {

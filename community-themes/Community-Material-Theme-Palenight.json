@@ -1,6 +1,6 @@
 {
   "name": "Community-Material-Theme-Palenight",
-  "type": "dark",
+  "semanticHighlighting": true,
   "tokenColors": [
     {
       "settings": {

@@ -1,6 +1,6 @@
 {
   "name": "Community-Material-Theme-Lighter-High-Contrast",
-  "type": "light",
+  "semanticHighlighting": true,
   "tokenColors": [
     {
       "settings": {
