@@ -2,7 +2,7 @@
   "name": "vsc-material-theme-but-i-wont-sue-you",
   "displayName": "Material Theme (But I Won't Sue You)",
   "description": "A Apache-2 licensed fork of Material Theme with no threats of legal action",
-  "version": "35.0.2",
+  "version": "35.0.3",
   "publisher": "t3dotgg",
   "license": "Apache-2.0",
   "author": "Theo",
@@ -203,13 +203,10 @@
       }
     ]
   },
-  "extensionDependency": [
-    "Equinusocio.vsc-material-theme-icons"
-  ],
   "badges": [
     {
-      "url": "https://img.shields.io/github/issues/material-theme/vsc-material-theme",
-      "href": "https://github.com/material-theme/vsc-material-theme/issues",
+      "url": "https://img.shields.io/github/issues/t3dotgg/vsc-material-but-i-wont-sue-you",
+      "href": "https://github.com/t3dotgg/vsc-material-but-i-wont-sue-you/issues",
       "description": "Open issues"
     }
   ],
