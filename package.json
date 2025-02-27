@@ -2,7 +2,7 @@
   "name": "vsc-material-theme-but-i-wont-sue-you",
   "displayName": "Material Theme (But I Won't Sue You)",
   "description": "A Apache-2 licensed fork of Material Theme with no threats of legal action",
-  "version": "35.0.3",
+  "version": "35.0.4",
   "publisher": "t3dotgg",
   "license": "Apache-2.0",
   "author": "Theo",
@@ -211,7 +211,6 @@
     }
   ],
   "devDependencies": {
-    "@moxer/vscode-theme-generator": "1.21.0",
     "@types/fs-extra": "11.0.4",
     "@types/node": "22.13.5",
     "@typescript-eslint/eslint-plugin": "3.3.0",

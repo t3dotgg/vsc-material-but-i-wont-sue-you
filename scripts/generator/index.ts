@@ -1,7 +1,7 @@
 import * as fs from 'fs-extra';
 import * as path from 'path';
 
-import {generateTheme} from '@moxer/vscode-theme-generator';
+import {generateTheme} from '../../src/theme-generator';
 import {ThemeSetting} from './types';
 import {getColorSet} from './color-set';
 import {BUILD_FOLDER_PATH} from '../../src/env';
